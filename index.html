@@ -10,6 +10,9 @@
 
     <title>Prativa Refrigeration Centre</title>
     <style>
+      body{
+        background-color:rgb(27, 79, 114 );
+      }
       .logo{
         width: 95px;
         height: 40px;
@@ -24,21 +27,24 @@
         line-height: 25px;
         border-radius: 4px;
       }
-      .header a:hover {
-  background-color: #ddd;
-  color: black;
-}
+      .header a:hover 
+      {
+         background-color: #ddd;
+         color: black;
+      }
 
 /* Style the active/current link*/
-.header a.active {
-  background-color:#1D3A8F;
-  color: white;
-}
+     .header a.active 
+     {
+       background-color:#1D3A8F;
+       color: white;
+     }
 
 /* Float the link section to the right */
-.header-right {
-  float: right;
-}
+     .header-right
+      {
+       float: right;
+      }
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
@@ -49,6 +55,7 @@
   }
   .header-right {
     float: none;
+    color:#48C9B0 ;
   }
 }
   .webTitle{
@@ -64,25 +71,26 @@
     background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
 }
   .divider{
-  border: 30px solid #E9ECEF;
+  border: 8px solid #D6EAF8 ;
   border-radius: 5px;
   }
     </style>
   </head>
+ 
   <body>
     <div class="header">
       <nav class="navbar navbar-inverse navbar-inner transparent navbar-light bg-light">
       <a href="#default"><img  class="logo" src="logo.png" alt="Welcome"></a>
       <div class="header-right">
-        <a class="active" href="#home">Home</a>
+        <a href="#home">Home</a>
         <a href="#contact">Products</a>
         <a href="#services">Services</a>
         <a href="#about">About us</a>
       </div>
     </nav>
     </div>
-    <div class="jumbotron ">
-      <h1 class="display-4 text-center webTitle">Prativa Refrigeration Center</h1>
+    <div class="jumbotron " style="  background-color: 	rgb(93, 173, 226)">
+      <h1 class="display-4 text-center webTitle" style="color:white;">Prativa Refrigeration Center</h1>
     </div>
     <div class="coverImage">
       <img src="top.jpeg" class="img-fluid rounded mx-auto d-block" alt="...">
@@ -93,7 +101,7 @@
       <section class="wthree-row py-5 w3-contact" id="features">
         <div class="container py-md-5">
          <div class="jumbotoron">
-            <h3 class="display-4 text-center divider">Features That Inspire</h1>
+            <h3 class="display-4 text-center divider"  style="color: white;">Features That Inspire</h1>
          </div>
         <div class="slideShow">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -134,31 +142,30 @@
         </div>
       </section>
     </section>
-
+   
     <section class="contact" id="contact">
     <section class="wthree-row py-5 w3-contact" id="contact">
-      <div class="container">
-      <div class="jumbotoron">
-        <h3 class="display-4 text-center divider">Contact Us</h1>
-      </div>
-
-      <h4><p style="text-align: center;">Just fill the form and your work is done.We will contact you as soon as possible.</p></h4>
+      <div class="container py-md-5">
+        <div class="jumbotoron">
+          <h3 class="display-4 text-center divider" style="color: white;">Contact Us</h1>
+        </div>
+      <h4><p style="text-align: center;color:white">Just fill the form and your work is done.We will contact you as soon as possible.</p></h4>
       <div class="row contact-form ">
       <div class="col-lg-6 wthree-form-left">
        
         <div class="contact-top1">
             <div class="form-group">
-              <label for="name">Name</label>
+              <label for="name" style="color:white">Name</label>
               <input type="text" id="name" class="form-control" >
             </div>
 
             <div class="form-group">
-              <label for="email">Email</label>
+              <label for="email" style="color:white">Email</label>
               <input type="email" class="form-control" id="email" >
             </div>
 
             <div class="form-group">
-              <label for="mess">Your Message</label>
+              <label for="mess" style="color:white">Your Message</label>
               <textarea class="form-control" rows="5" id="mess"></textarea>
             </div>
 
@@ -170,14 +177,16 @@
       </div>
       <div class="col-lg-6  mt-lg-0 mt-5 map contact-right">
          <div class="address mt-3">
-          <h3 class="pb-3 text-capitalize">Contact info</h3>
+          <h3 class="pb-3 text-capitalize" style="color:white">Contact info</h3>
           <address>
-            <p class="c-txt">Asansol,West Bengal</p>
-            <p>
+            <p class="c-txt" style="color:white">Asansol,West Bengal</p>
+            <p style="color:white">
               +919988776655</p>
             <p>
-              <p>
-                <a href="mailto:info@example.com">pavitraRefrigeration.com</a>
+              <p >
+                <a href="mailto:info@example.com" style="color:white;transition: 0.5s all;
+                -webkit-transition: 0.5s all;
+                -moz-transition: 0.5s all;">pavitraRefrigeration.com</a>
               </p>
           </address>
         </div>
