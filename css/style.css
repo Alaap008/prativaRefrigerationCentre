@@ -1,0 +1,41 @@
+body a {
+	transition: 0.7s all;
+	-webkit-transition: 0.7s all;
+	text-decoration: none;
+}
+body a:hover {
+	text-decoration: none;
+}
+body a:focus, a:hover {
+	text-decoration: none;
+}
+p {
+	margin: 0;
+	letter-spacing:1px;
+	line-height:3em;
+	font-size:30px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: aliceblue;
+
+	
+}
+.address h5 {
+    color: white ;
+    text-transform: capitalize;
+    font-size: 1.1em;
+}
+
+.address p a,
+p.c-txt {
+    color: #85C1E9  ;
+    font-size: 1em;
+}
+
+.address p a:hover {
+    color:white;
+}
+
+.address h5 {
+    font-size: 1.5em;
+}
+
